@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "[solidity]": {
+        "editor.defaultFormatter": "JuanBlanco.solidity",
+        "editor.formatOnSave": true
+    },
+    "solidity.formatter": "forge",
+    "solidity.enableLocalNodeCompiler": false,
+    "solidity.packageDefaultDependenciesDirectory": "lib"
+}
