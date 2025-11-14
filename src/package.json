@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "solc": "^0.8.30"
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "fs-extra": "^11.3.2",
+    "solc": "0.8.19"
   },
   "scripts": {
     "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . HelloWorld.sol"
